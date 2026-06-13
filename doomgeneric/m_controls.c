@@ -127,8 +127,8 @@ int key_weapon5 = '5';
 int key_weapon6 = '6';
 int key_weapon7 = '7';
 int key_weapon8 = '8';
-int key_prevweapon = 0;
-int key_nextweapon = 0;
+int key_prevweapon = '[';
+int key_nextweapon = ']';
 
 // Map control keys:
 
@@ -395,4 +395,3 @@ void M_ApplyPlatformDefaults(void)
 {
     // no-op. Add your platform-specific patches here.
 }
-
